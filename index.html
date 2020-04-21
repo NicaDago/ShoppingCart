@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="Description" content="ShoppingCart">
+        <meta name="keywords" content="HTML,CSS,JS">
+        <meta name="author" content="Monica D'Agosto">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DAGOSTO-Assignment4</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="store.js" asynch></script>
+    </head>
+
+    <body>
+
+       <header class="header-img">
+    <h1 class="centered">The Laughing Buddha Menu</h1>
+  </header>
+
+  <section>
+  <nav>
+      <section class="container1">
+    <div class="topnav">
+      <img src="Images/shoppingcart.png" class="shopping-symbol" 
+        alt="Shopping Basket">
+      <button class="shopping-cart" type="button">Cart</span></button> 
+    </div>
+    </section>
+  </nav>
+</section>
+
+ <section>
+  <h2 class="container center"><em>Enlightment Starts Here</em></h2>
+  </section>
+
+<!--Shopping Items-->
+        <section class="container content-section">
+            <div class="wrap shop-items">
+                <div class="margin30 shop-item">
+                    <img class="img-size shop-item-image" src="images/baba.jpg">
+                    <span class="item shop-item-title">Baba&#96; Napoletano</span>
+                    <div class="details">
+                        <span class="price shop-item-price">£2.50</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Add to Basket</button>
+                    </div>
+                </div>
+                <div class="margin30 shop-item">
+                    <img class="img-size shop-item-image" src="images/pastiera.jpg">
+                    <span class="item shop-item-title">Slice of Pastiera</span>
+                    <div class="details">
+                        <span class="price shop-item-price">£2.00</span>
+                        <button class="btn btn-primary shop-item-button"type="button">Add to Basket</button>
+                    </div>
+                </div>
+                <div class="margin30 shop-item">
+                    <img class="img-size shop-item-image" src="images/sfogliatella.jpg">
+                    <span class="item shop-item-title">Sfogliatella Napoletana</span>
+                    <div class="details">
+                        <span class="price shop-item-price">£3.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Add to Basket</button>
+                    </div>
+                </div>
+                <div class="margin30 shop-item">
+                    <img class="img-size shop-item-image" src="images/zeppola.jpg">
+                    <span class="item shop-item-title">Zeppola Napoletana</span>
+                    <div class="details">
+                        <span class="price shop-item-price">£2.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Add to Basket</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+ <!--Basket-->
+ <section class="container content-section">
+    <h2 class="section-header">Basket</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">Product</span>
+        <span class="cart-price cart-header cart-column">Price</span>
+        <span class="cart-quantity cart-header cart-column">Quantity</span>
+    </div>
+
+
+    <div class="cart-items"></div>  
+
+    </div>
+
+
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">£0.00</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+
+<!--footer-->
+<footer>
+  <p class="footer">&copy; Monica D'Agosto<p> 
+</footer>
+
+    </body>
+</html>
